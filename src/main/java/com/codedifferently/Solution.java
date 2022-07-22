@@ -1,5 +1,7 @@
 package com.codedifferently;
 
+import java.util.HashMap;
+
 public class Solution {
     /**
      * You will be given an integer called number and an array called possibleFamilyMembers
@@ -18,6 +20,10 @@ public class Solution {
      * @return
      */
     public Integer[] numberFamily(Integer number, Integer[] possibleFamilyMembers){
+        HashMap<String, Integer> family = new HashMap<>();
+        // iteriate through the string
+        //comparing each value to the left
+
         return null;
     }
 }
